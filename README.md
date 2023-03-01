@@ -19,6 +19,7 @@ Testing data accuracy score using original data: 0.9218
 
 Confusion matrix & Classification Report for testing data: 
 
+```python
                                      (18663   102)
                                      (   56   563)
                                      
@@ -30,13 +31,15 @@ Confusion matrix & Classification Report for testing data:
           1       0.85      0.91      0.99      0.88      0.95      0.90       619
 
 avg / total       0.99      0.99      0.91      0.99      0.95      0.91     19384
-
+```
 
 **Model 2: Using Resampled data
 
 Testing data accuracy score using resampled data: 0.9937
 
-Confusion matrix & Classification Report for testing data: 
+Confusion matrix & Classification Report for testing data:
+
+```python
                                          (18649   116)
                                          (    4   615)
                                          
@@ -48,7 +51,7 @@ Confusion matrix & Classification Report for testing data:
           1       0.84      0.99      0.99      0.91      0.99      0.99       619
 
 avg / total       0.99      0.99      0.99      0.99      0.99      0.99     19384
-
+```
 
 ## Summary
 
