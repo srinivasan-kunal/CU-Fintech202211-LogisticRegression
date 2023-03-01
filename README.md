@@ -56,3 +56,5 @@ avg / total       0.99      0.99      0.99      0.99      0.99      0.99     193
 ## Summary
 
 The accuracy score of the logistic regression is better on resampled data ~99% (vs 92% in original data). New model continues to perform extremely well on the healthy loans. However the performance in terms of the precision and recall for the high-risk loan is different. In the resampled data the precision remain the same (~85%) but the recall shows an improvement from 91% originally to 99% after resampling.
+
+Based on the above the model using the resampled data would be recommended for it's better recall.
